@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="OiVTbX5fL_4MmEvV70d9">
+    <mxGraphModel dx="2100" dy="3244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;u style=&quot;&quot;&gt;Lab and Test Results Workflow&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1721.25" y="-1270" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" source="ioiRrt6hgh1TVM6rgadg-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="-910" as="sourcePoint" />
+            <mxPoint x="1880.4300000000003" y="-820" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-2" value="&lt;b&gt;User Request:&lt;/b&gt;&amp;nbsp;See my lab results, questions about lab test, Download test result, When my lab tests will be ready" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="1735" y="-990" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ioiRrt6hgh1TVM6rgadg-8" target="ioiRrt6hgh1TVM6rgadg-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="-750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-7" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ioiRrt6hgh1TVM6rgadg-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.4209" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-8" value="User signed in ?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="-820" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-12" value="Sign in (or) Create Mychart account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="2740" y="-670" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ioiRrt6hgh1TVM6rgadg-8" target="ioiRrt6hgh1TVM6rgadg-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="-790" as="sourcePoint" />
+            <mxPoint x="150" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ioiRrt6hgh1TVM6rgadg-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-22" value="New Lab order" style="rhombus;whiteSpace=wrap;html=1;fillColor=#EA6B66;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-310" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="-400" as="sourcePoint" />
+            <mxPoint x="3240" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438.75" y="-400" as="sourcePoint" />
+            <mxPoint x="438.75" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="-400" as="sourcePoint" />
+            <mxPoint x="1800" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-26" value="View or List" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="-310" width="82.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-36" value="Download&amp;nbsp;&lt;div&gt;or Print&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="-310" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-37" value="Questions&amp;nbsp;&lt;div&gt;about results&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="-310" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-38" value="Result&amp;nbsp;&lt;div&gt;follow-up&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="-310" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-39" value="Adding or uploading results" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="800" y="-310" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="839.29" y="-400" as="sourcePoint" />
+            <mxPoint x="839.29" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="-400" as="sourcePoint" />
+            <mxPoint x="1080" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="-400" as="sourcePoint" />
+            <mxPoint x="1320" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="-400" as="sourcePoint" />
+            <mxPoint x="1560" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-51" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ioiRrt6hgh1TVM6rgadg-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="-220" as="sourcePoint" />
+            <mxPoint x="840" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-54" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="TZuJADvBNhhU6uExJ48l-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="-220" as="sourcePoint" />
+            <mxPoint x="3280" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-61" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;1. How can i book my blood test on Mychart?&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;I need to take a flu test, please place an order for me.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-172" width="190" height="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-74" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="-520" as="sourcePoint" />
+            <mxPoint x="1878.33" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-93" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;1. How do I upload test results that was done by a Physician outside your network?&lt;/div&gt;&lt;div&gt;2. I want to upload documents from&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;blood work for my doctor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;" parent="1" vertex="1">
+          <mxGeometry x="750" y="-170" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-94" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1. How to download my test results?&lt;/div&gt;&lt;div&gt;2. How can I print my MRI results?&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;align=left;" parent="1" vertex="1">
+          <mxGeometry x="995" y="-170" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-96" value="&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Hey, got my blood test results back. Can you check when my provider is free?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. How do I initiate a follow-up on my test results?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;" parent="1" vertex="1">
+          <mxGeometry x="1457.5" y="-167.5" width="210" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-97" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1. S&lt;span style=&quot;background-color: initial;&quot;&gt;ee colonoscopy results&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Can i see my recent mammogram films?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;" parent="1" vertex="1">
+          <mxGeometry x="1701.25" y="-170" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-98" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;Yes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="400" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-121" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="ioiRrt6hgh1TVM6rgadg-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="958.33" y="-520" as="sourcePoint" />
+            <mxPoint x="958.6600000000001" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-129" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="-222.5" as="sourcePoint" />
+            <mxPoint x="839.1700000000001" y="-170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-130" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080.12" y="-220" as="sourcePoint" />
+            <mxPoint x="1079.29" y="-167.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-131" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320.12" y="-222.5" as="sourcePoint" />
+            <mxPoint x="1319.29" y="-170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-132" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560.12" y="-220" as="sourcePoint" />
+            <mxPoint x="1559.29" y="-167.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-133" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1801.37" y="-220" as="sourcePoint" />
+            <mxPoint x="1800.54" y="-167.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-4" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;What is CRP mean in my labwork?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;What does abnormal mean in the glucose test report?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="-170" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2037.5" y="-400" as="sourcePoint" />
+            <mxPoint x="2038" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-6" value="Customer&amp;nbsp;&lt;div&gt;support help&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="-310" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2037.2099999999998" y="-220" as="sourcePoint" />
+            <mxPoint x="2036.7862162162162" y="-167.50000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-9" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Show my father&#39;s blood pressure results.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;See my dependant&#39;s lab results&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="-167.5" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="-400" as="sourcePoint" />
+            <mxPoint x="2280.5" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-11" value="View or List&amp;nbsp;&lt;div&gt;as proxy&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-310" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2279.71" y="-220" as="sourcePoint" />
+            <mxPoint x="2280" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-13" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Connect me to customer support regarding my blood test results.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;I don&#39;t want to talk to bot. Connect me to someone live to discuss about my lab test results.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="-167.5" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2520" y="-400" as="sourcePoint" />
+            <mxPoint x="2520.5" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-15" value="How to setup access" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="-310" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2519.17" y="-220" as="sourcePoint" />
+            <mxPoint x="2519.46" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-17" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;How can I setup access for my lab results ?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Where can I find assistance with setting up access to my Kidney function result?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;verticalAlign=bottom;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="-167.5" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2760" y="-400" as="sourcePoint" />
+            <mxPoint x="2760.5" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-19" value="How to share" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="-310" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2759.17" y="-220" as="sourcePoint" />
+            <mxPoint x="2759.46" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-22" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;send CT scan report to Dr. PERSON at Swedish&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;How can i share my test results with someone?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="-168.75" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3000" y="-400" as="sourcePoint" />
+            <mxPoint x="3000.5" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-24" value="Unable to view" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3190" y="-310" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2999.17" y="-220" as="sourcePoint" />
+            <mxPoint x="2999.46" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-26" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;can&#39;t find my test results&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;I have signed in but can’t see the results&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="-172" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3240" y="-400" as="sourcePoint" />
+            <mxPoint x="3240.5" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-28" value="Unable to view" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="-310" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3239.17" y="-220" as="sourcePoint" />
+            <mxPoint x="3239.46" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-32" value="&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/font&gt;&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;can&#39;t find my test results&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;I have signed in but can’t see the results&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#D4E1F5;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="-172" width="200" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioiRrt6hgh1TVM6rgadg-22" target="ioiRrt6hgh1TVM6rgadg-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.58" y="-215" as="sourcePoint" />
+            <mxPoint x="439" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="839.09" y="0.5" as="sourcePoint" />
+            <mxPoint x="839" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070.0900000000001" y="2.5" as="sourcePoint" />
+            <mxPoint x="1070" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-42" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace:&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Redirects the user to Mychart Records page with the link to download the documents&amp;nbsp;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="970" y="80" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-43" value="&#xa;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace:&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Redirects the user to Mychart message page with the link to upload the documents&amp;nbsp;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="730" y="80" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-45" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace provides options whether the user received notes from the provider&lt;/b&gt;&lt;div&gt;&lt;b&gt;a) Yes&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;b) No&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;c) I don&#39;t know&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="190" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TZuJADvBNhhU6uExJ48l-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1319.0900000000001" y="2.5" as="sourcePoint" />
+            <mxPoint x="1319" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-49" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;No&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1257.5" y="400" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-50" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;I don&#39;t know&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-51" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1319.83" y="290" as="sourcePoint" />
+            <mxPoint x="1319" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-52" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="340" as="sourcePoint" />
+            <mxPoint x="1560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1078.7600000000002" y="340.5" as="sourcePoint" />
+            <mxPoint x="1078.67" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1319.2600000000002" y="340.5" as="sourcePoint" />
+            <mxPoint x="1319.17" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1559.42" y="340.5" as="sourcePoint" />
+            <mxPoint x="1559.33" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080.0900000000001" y="460" as="sourcePoint" />
+            <mxPoint x="1080" y="519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-57" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace redirects the user with Messaging Provider option&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="520" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-58" value="&lt;b&gt;Grace Verifies the&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;user with Mychart&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Sign-in options:&lt;/b&gt;&amp;nbsp;&lt;div style=&quot;&quot;&gt;a) Sign-in&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;b) Create account&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="940" y="650" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1078.7600000000002" y="590" as="sourcePoint" />
+            <mxPoint x="1078.67" y="649.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1319.2600000000002" y="460.5" as="sourcePoint" />
+            <mxPoint x="1319.17" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-62" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace asks the user whether its been more than 5 business days since the result is released&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="520" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-63" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="590" as="sourcePoint" />
+            <mxPoint x="1319" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="800" as="sourcePoint" />
+            <mxPoint x="1450" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200.0900000000001" y="800" as="sourcePoint" />
+            <mxPoint x="1200" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1444.33" y="800" as="sourcePoint" />
+            <mxPoint x="1444.33" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-67" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;Yes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-68" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;No&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-69" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace redirects the user with Messaging Provider option&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="960" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200.0900000000001" y="900" as="sourcePoint" />
+            <mxPoint x="1200" y="959.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440.0900000000001" y="900.5" as="sourcePoint" />
+            <mxPoint x="1440" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-73" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace confirm the user that the test results may take 5 business days to appear in Mychart&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="960" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-74" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace asks the user whether they received any notes from the provider&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="520" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-75" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1559.4200000000003" y="460" as="sourcePoint" />
+            <mxPoint x="1559.3300000000002" y="519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-76" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560.33" y="590" as="sourcePoint" />
+            <mxPoint x="1559" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-77" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="680" as="sourcePoint" />
+            <mxPoint x="1560" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-78" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1759.67" y="680" as="sourcePoint" />
+            <mxPoint x="1759" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-79" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="800" as="sourcePoint" />
+            <mxPoint x="1880" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1638.7600000000002" y="800" as="sourcePoint" />
+            <mxPoint x="1638.67" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1879.4200000000003" y="800" as="sourcePoint" />
+            <mxPoint x="1879.3300000000002" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-82" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;Yes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1571.25" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-83" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;No&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1638.7600000000002" y="900" as="sourcePoint" />
+            <mxPoint x="1638.67" y="959.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-85" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace redirects the user with Messaging Provider option&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1551.25" y="960" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1879.4200000000003" y="900" as="sourcePoint" />
+            <mxPoint x="1879" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-87" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace asks the user whether its been more than 5 business days since the result is released&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="960" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-89" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880.33" y="1030" as="sourcePoint" />
+            <mxPoint x="1879" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-90" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1720" y="1160" as="sourcePoint" />
+            <mxPoint x="2000" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1720.0100000000002" y="1160" as="sourcePoint" />
+            <mxPoint x="1719.92" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-92" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="1160" as="sourcePoint" />
+            <mxPoint x="2000" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-93" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;Yes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-94" value="&lt;b style=&quot;color: rgb(51, 51, 51);&quot;&gt;User Selection:&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;No&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-95" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1721.3400000000001" y="1260" as="sourcePoint" />
+            <mxPoint x="1721.25" y="1319.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-96" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace redirects the user with Messaging Provider option&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-97" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000.0900000000001" y="1260.5" as="sourcePoint" />
+            <mxPoint x="2000" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-98" value="&lt;br&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;Grace confirm the user that the test results may take 5 business days to appear in Mychart&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1901.25" y="1320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-101" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="-520" as="sourcePoint" />
+            <mxPoint x="2810" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioiRrt6hgh1TVM6rgadg-11" value="Grace shows Test Result options" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="900" y="-660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZuJADvBNhhU6uExJ48l-102" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2810" y="-520" as="sourcePoint" />
+            <mxPoint x="2810" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
